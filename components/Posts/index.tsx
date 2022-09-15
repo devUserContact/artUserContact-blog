@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-//import useFetch from "../../utils/useFetch";
-
 import gqlFetch from "../../utils/gqlFetch";
 
 import Loading from "../Loading";

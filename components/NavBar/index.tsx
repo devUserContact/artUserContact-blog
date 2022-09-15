@@ -7,17 +7,17 @@ export default function NavBar() {
 			<div className={styles.navBarContainer}>
 				<p className={styles.navBarText}>
 					<Link href="/">
-						<a>/home </a>
+						<a>/artUserContact </a>
 					</Link>
 				</p>
 				<p className={styles.navBarText}>
 					<Link href="/posts">
-						<a>/blog </a>
+						<a>/posts </a>
 					</Link>
 				</p>
 				<p className={styles.navBarText}>
 					<Link href="/about">
-						<a>/about </a>
+						<a>/whoami </a>
 					</Link>
 				</p>
 			</div>

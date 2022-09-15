@@ -12,7 +12,7 @@ export default function gqlFetch() {
 
 	useEffect(() => {
 		if (data) {
-			setPosts(data.devGetAllBlogPosts);
+			setPosts(data.artGetAllBlogPosts);
 			setPostsFetched(true);
 			if (postsFetched) {
 				const postListWithDateFormatted: any = posts.map((post: any, id: number) => {
