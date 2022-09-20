@@ -7,4 +7,6 @@ blog network. i hope that you enjoy your time here- however long.
 
 if there is anything you see that you like, please feel free to contact me for 
 inquires or commissions. 
+
+artUserContact
 `;
