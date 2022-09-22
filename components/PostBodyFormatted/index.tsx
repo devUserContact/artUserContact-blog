@@ -1,5 +1,6 @@
 import React from 'react';
 import Markdown from 'react-markdown';
+import styles from "../../styles/Main.module.scss";
 
 const PostBodyFormatted = ({ post }: any) => {
   let media = JSON.parse(post.media);
@@ -16,7 +17,7 @@ const PostBodyFormatted = ({ post }: any) => {
         return <Markdown>{fragment}</Markdown>;
       }
       if (fragment === `IMGUR`) {
-        return <img src={`${imgurLinks}`} />;
+        return <img className={styles.postImage} src={`${imgurLinks}`} />;
       }
     });
   }
