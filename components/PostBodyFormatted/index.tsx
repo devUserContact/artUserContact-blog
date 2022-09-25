@@ -9,11 +9,11 @@ const PostBodyFormatted = ({ post }: any) => {
   } else {
     let counter = 0;
     let cloudflairLinks: Array<string> = [];
-    media.cloudflair.map((link, index) => {
+    media.cloudflair.map((link: any, index) => {
       cloudflairLinks.push(link);
     });
     let bodyArray = post.body.split(/(CLOUDFLAIR)/);
-    return bodyArray.map((fragment, index) => {
+    return bodyArray.map((fragment: any, index) => {
       if (fragment != `CLOUDFLAIR`) {
         return <Markdown>{fragment}</Markdown>;
       }
