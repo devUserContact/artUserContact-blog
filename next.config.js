@@ -1,12 +1,7 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
   reactStrictMode: false,
-  optimizeFonts: true,
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.resolve.fallback.fs = false;
-    }
-    return config;
-  },
+  optimizeFonts: true
 }
 
+module.exports = nextConfig
