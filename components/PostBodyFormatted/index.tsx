@@ -8,7 +8,7 @@ const PostBodyFormatted = ({ post }: any) => {
     return <Markdown linkTarget={'_black'}>{post.body}</Markdown>;
   } else {
     let counter = 0;
-    let cloudflairLinks = [];
+    let cloudflairLinks: Array<string> = [];
     media.cloudflair.map((link, index) => {
       cloudflairLinks.push(link);
     });
