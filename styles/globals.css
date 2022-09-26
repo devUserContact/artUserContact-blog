@@ -18,6 +18,8 @@ a {
 }
 * {
 	box-sizing: border-box;
+	background-color: #e4dece; 
+	color: #171724;
 }
 code {
 	background-color: rgb(229, 229, 229);

@@ -41,18 +41,19 @@ $screen-xl-min: 1200px;
 	height: 7.5rem;
 	width: 100%;
 	align-items: center;
-	border-bottom: solid #171724 1px;
+	border-bottom: solid black 1px;
 }
 .navBarText {
 	margin-left: 2%;
 	text-align: left;
 	font-size: 2.2rem;
 	a { 
-  	color: #0e0d6a;
+  	color: rgb(0, 125, 220);
 	}
 }
 .blogTitleContainer {
 	display: grid;
+	width: 90%;
 	margin: auto;
 	margin-top: 5%;
 	margin-bottom: 5%;
@@ -84,14 +85,11 @@ $screen-xl-min: 1200px;
 	border-radius: 1.5rem;
 }
 .postHeaderGrid {
-	margin: auto;	
-	margin-bottom: 0;
-	width: 90%;
 	display: grid;
-	justify-content: start;
-	border-bottom: solid #171724;
+	justify-content: center;
 }
 .postTitle {
+	margin: quto;
 	margin-top: 4%;
 	text-align: left;
 	font-weight: bold;
@@ -104,13 +102,11 @@ $screen-xl-min: 1200px;
 	font-size: 1.2rem;
 }
 .postDate {
-	text-align: start;
+	text-align: center;
 	font-size: 1rem;
-	margin-bottom: 0;
 }
 .postBody {
 	margin: auto;
-	padding-top: 1.75rem;
 	white-space: wrap;
 	text-align: left;
 	width: 90%;
@@ -202,9 +198,6 @@ $screen-xl-min: 1200px;
 @include xl {
 	.blogTitleContainer {
 		width: 100%;
-	}
-	.postHeaderGrid {
-		width: 85%;
 	}
 	.blogTitle {
 		font-size: 5rem;
