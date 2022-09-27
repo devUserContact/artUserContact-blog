@@ -41,14 +41,14 @@ $screen-xl-min: 1200px;
 	height: 7.5rem;
 	width: 100%;
 	align-items: center;
-	border-bottom: solid #171724 1px;
+	border-bottom: solid #292929 1px;
 }
 .navBarText {
 	margin-left: 2%;
 	text-align: left;
 	font-size: 2.2rem;
 	a { 
-  	color: #0e0d6a;
+  	color: #8f56d4;
 	}
 }
 .blogTitleContainer {
@@ -89,7 +89,7 @@ $screen-xl-min: 1200px;
 	width: 90%;
 	display: grid;
 	justify-content: start;
-	border-bottom: solid #171724;
+	border-bottom: solid #292929;
 }
 .postTitle {
 	margin-top: 4%;
@@ -116,7 +116,7 @@ $screen-xl-min: 1200px;
 	width: 90%;
 	font-size: 0.95rem;
 	a { 
-  	color: rgb(0, 125, 220);
+  	color: #8f56d4;
 	}
 }
 .postImage {
