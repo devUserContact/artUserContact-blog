@@ -25,5 +25,6 @@ export default function gqlFetch() {
 			setDateFormatted(true);
 		}
 	}, [data, dateFormatted]);
+	console.table(posts);
 	return { posts, dateFormatted };
 }
