@@ -6,7 +6,7 @@ this blog is where i post some of my art as well as work on new features for my
 blog network. i hope that you enjoy your time here- however long. 
 
 if you see anything that you like, please feel free to [contact me][email] with 
-inquires or you just want to say hi. 
+inquires or if you just want to say hi. 
 
 [email]:mailto:art.user.contact@protonamil.com "art.user.contact@protonmail" 
 `;
